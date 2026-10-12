@@ -5,27 +5,14 @@
     margin:0px;
     box-sizing: border-box;
 }
-/* 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 html,
 body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
+width: 100%;
+margin: 0;
+padding: 0;
 }
-
- .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-} */
 
 
 .mid{
@@ -36,8 +23,8 @@ background-size:cover;
 }
 
 .captions{
-    text-align:right;
-    color:white;
+text-align:right;
+color:white;
 
 }
 
@@ -79,13 +66,13 @@ background-size:cover;
 }
 
 .cardmain{
-    display:flex;
+display:flex;
  justify-content:center;
 }
 
 
 .card{
-    padding:10px 10px;
+ padding:10px 10px;
  margin:10px 20px;
  justify-content:center;
  align-items:center;
@@ -93,8 +80,7 @@ background-size:cover;
 }
 
 .card img{
-    
-    padding:10px 30px;
+ padding:10px 30px;
  margin:20px 10px;
  width:300px;
  width:300px;
@@ -110,8 +96,6 @@ background-size:cover;
     text-align:center;
 
 }
-
-
 
 .card a{
     text-decoration:none;
@@ -181,50 +165,20 @@ background-size:cover;
 }
 
 
-/* .footer{
-background-color: rgba(0, 0, 0, 0.545);
-    color: white;
-    padding:70px 40px;
-    width:auto;
-
-}
-
-
-.foot{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    color: white;
-} */
-
-/* 
-.copy
-{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    padding:10px 20px;
-
-} */
-
-
 .menubar a:hover{
     font-weight:bold;
     background-color: rgba(168, 168, 227, 0.221);
     color:pink;
-    
-
 }
 
 .menubar i:hover{
     font-weight:bold;
     background-color: rgba(168, 168, 227, 0.221);
-    color:pink;
-    
-
+    color:pink;  
 }
 
-  .last img{
+
+.last img{
     width:300px;
     height:150px; 
 } 
@@ -235,18 +189,12 @@ background-color: rgba(0, 0, 0, 0.545);
 
 }
 
- .set img{ 
+.set img{ 
       width:100px;
     height:50px;
 } 
 
 
-html,
-body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
 .footer {
     width: 100vw;
     margin-left: calc(50% - 50vw);
