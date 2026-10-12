@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <div class="logo">
+    <a class="navbar-brand" href="#">
+        <img src="./img/Bootstrap/img/PizzaHouse_ Good Pizza, Happy Mood.png">
+    </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+
+    <div class="menubar">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item px-4 style= animation : ease-in-out 0.5s;">
+          <a class="nav-link active" aria-current="page" href="#"><p class="fs-3">Home</p></a>
+        </li>
+
+        <li class="nav-item px-4 ">
+          <a class="nav-link active" aria-current="page" href="#"><p class="fs-3">About Us</p></a>
+        </li>
+
+        <li class="nav-item px-4 ">
+          <a class="nav-link active" aria-current="page" href="#"><p class="fs-3">Typography</p></a>
+        </li>
+
+        <li class="nav-item px-44 ">
+          <a class="nav-link active" aria-current="page" href="#"><p class="fs-3">Contacts</p></a>
+        </li>
+
+
+        <li class="nav-item px-5 ">
+          <a class="nav-link active" aria-current="page" href="#"><p class="fs-3"><i class="bi bi-list"></i></p></a>
+        </li>
+
+    </div>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="img/slide-1.jpg" class="d-block w-180" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="h1 text-light text-">Perfect Pizza</h5>
+        <p class="h5 text-light">Experience the taste of a perfect pizza at PizzaHouse, one of the best restaurants!</p>
+            <button type="button" class="btn btn-warning">View Our Menu</button>
+        
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="img/slide-2.jpg" class="d-block w-180" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="h1 text-light">Quality Ingredient</h5>
+        <p class="h5 text-light">We use only the best ingredients to make one-of-a-kind pizzas for our customers</p>
+        <button type="button" class="btn btn-warning">View Our Menu</button>
+
+      </div>
+    </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<section class="sub">
+  <h1 class="text text-center py-5">OUR MENU</h1>
+   <div class="container">
+  <div class="row">
+    <div class="col-md-4 bg-light">
+      <img src="img/menu-1.jpg" alt="img1">
+    </div>
+    <div class="col-md-4 bg-light">
+      <img src="img/menu-2.jpg " alt="img2">
+    </div>
+    <div class="col-md-4 bg-light">
+      <img src="img/menu-3-370x278.jpg" alt="img3">
+    </div>
+  </div>
+
+  <div class="row ">
+    <div class="col-md-4 my-5">
+      <img src="img/menu-4-370x278.jpg" alt="img1">
+    </div>
+    <div class="col-md-4 my-5">
+      <img src="img/menu-5-370x278.jpg" alt="img2">
+    </div>
+    <div class="col-md-4 my-5">
+      <img src="img/menu-6-370x278.jpg" alt="img3">
+    </div>
+  </div>
+
+</div>
+</section>
+
+
+
+<section class="mid px-5  py-5  my-5">
+  <div class="container">
+   <div class="row">
+    <div class="cols-md-6"></div>
+      <div class="cols-md-6">
+        <div class="captions">
+          <h1 class="h1 px-5 py-5">Best atmosphere</h1>
+          <h6 class="p px-5 my-3">PizzaHouse is the place of the best pizza and high-quality service.</h6>
+          <h6 class="h5 mx-5 my-4">Ben Smith, Founder</h6>
+          <button type="button" class="btn btn-success">View Our Service</button>
+        </div>
+      </div>
+    </div>
+    </div>
+</section>
+
+
+<secction class="menu text-center py-5 px-5 ">
+  <div class="container">
+    <h1>SELECTED PIZZAS</h1>
+  <div class="row">
+    <div class="col-md-3 py-5">
+      <div class="shadow-lg p-3 mb-5 bg-body rounded py-5 ">
+        <div class="image">
+        <img src="img/product-1-161x162.png" alt="prod1">
+        <h5 class="h5 py-3 text-warm"><i class="bi bi-star-fill"></i>
+        <span><i class="bi bi-star-fill"></i> </span>
+          <span><i class="bi bi-star-fill"></i> </span>
+          <span><i class="bi bi-star-fill"></i> </span>
+        </h5>
+        <h3>Margherita Pizza</h3>
+         <p><i class="bi bi-currency-dollar">24.00</i></p>
+         <div class="hover">
+          <a href="#">
+           <button type="button" class="btn btn-success">ADD TO CART</button>
+            <button type="button" class="btn btn-success">VIEW PRODUCT</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-3 py-5 ">
+      <div class="shadow-lg p-3 mb-5 bg-body rounded py-5 ">
+        <img src="img/product-2-161x162.png" alt="prod2">
+        <h5 class="h5 py-3 text-warm"><i class="bi bi-star-fill"></i>
+        <span><i class="bi bi-star-fill"></i> </span>
+          <span><i class="bi bi-star-fill"></i> </span>
+          <span><i class="bi bi-star-fill"></i> </span>
+          <span><i class="bi bi-star-fill"></i> </span>
+        </h5>
+         <h3> Mushroom Pizza</h3>
+          <p><i class="bi bi-currency-dollar">24.00</i></p>
+          <div class="hover">
+          <a href="#">
+           <button type="button" class="btn btn-success">ADD TO CART</button>
+            <button type="button" class="btn btn-success">VIEW PRODUCT</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-5">
+      <div class="shadow-lg p-3 mb-5 bg-body rounded py-5 ">
+        <img src="img/product-3-161x162.png" alt="prod3">
+        <h5 class="h5 py-3 text-warm"><i class="bi bi-star-fill"></i>
+        <span><i class="bi bi-star-fill"></i> </span>
+          <span><i class="bi bi-star-fill"></i> </span>
+          <span><i class="bi bi-star-fill"></i> </span>
+        </h5>
+         <h3> Mushroom Pizza</h3>
+          <p><i class="bi bi-currency-dollar">24.00</i></p>
+          <div class="hover">
+          <a href="#">
+           <button type="button" class="btn btn-success">ADD TO CART</button>
+            <button type="button" class="btn btn-success">VIEW PRODUCT</button>
+          </a>
+        </div>
+      </div>
+    </div>
+     <div class="col-md-3 py-5">
+      <div class="shadow-lg p-3 mb-5 bg-body rounded py-5 ">
+        <img src="img/product-4-161x162.png" alt="prod4">
+        <h5 class="h5 py-3 "><i class="bi bi-star-fill text-warm"></i>
+        <span><i class="bi bi-star-fill"></i> </span>
+          <span><i class="bi bi-star-fill"></i> </span>
+          <span><i class="bi bi-star-fill"></i> </span>
+          <span><i class="bi bi-star-fill"></i> </span>
+        </h5>
+        <h3> Pesto Pizza</h3>
+        <p><i class="bi bi-currency-dollar">24.00</i></p>
+        <div class="hover">
+          <a href="#">
+           <button type="button" class="btn btn-success">ADD TO CART</button>
+            <button type="button" class="btn btn-success">VIEW PRODUCT</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</secction>
+
+
+
+<section class="high px-5  py-5 ">
+  <div class="container">
+   <div class="row">
+    <div class="cols-md-6"></div>
+      <div class="cols-md-6">
+        <div class="captions py-5 px-5">
+          <h1 class="h1 px-5 py-5">-30% on all salads & drinks</h1>
+          <h6 class="p px-5 my-3">Taste some of the best PizzaHouse salads!.</h6>
+          <button type="button" class="btn btn-warning">CONTACT US</button>
+        </div>
+      </div>
+    </div>
+    </div>
+</section>
+
+
+<section class="moves ">
+  <h1 >WHAT PEOPLE SAY</h1>
+   <div class="cardmain">
+   <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <p class="card-text">PizzaHouse has amazing pizza. Not only do you get served with a great attitude and love, you also get delicious pizza at a great prices!</p>
+   <img src="./img/user-6-115x115.jpg" class="img-thumbnail" alt="user"><br>
+    <h6>Ashley Fitzgerald</h6>
+    <a href="#" class="card-link">CLIENT</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <p class="card-text">I am a real pizza addict, and even when I’m home I prefer your pizzas to all others. They taste awesome and are very affordable.</p>
+    <img src="./img/user-7-115x115.jpg" class="img-thumbnail" alt="user"><br>
+    <h6>Bill Johnson</h6>
+    <a href="#" class="card-link">CLIENT</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <p class="card-text">PizzaHouse has great pizza. Not only do you get served with a great attitude and delivered delicious pizza, you get a great price.</p>
+    <img src="./img/user-8-115x115.jpg" class="img-thumbnail" alt="user"><br>
+    <h6>Aaron Wilson</h6>
+    <a href="#" class="card-link">CLIENT</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <p class="card-text">PizzaHouse is the longest lasting pizza place in the city and is well run and staffed. Prices are great and allow me to keep coming back.</p>
+    <img src="./img/10 U.jpg" class="img-thumbnail" alt="user"><br>
+    <h6>Stephanie Williams</h6>
+    <a href="#" class="card-link">CLIENT</a>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="img">
+  <div class="images">
+    <img src="./img/scren.jpeg" alt="img">
+    </div>
+</section>
+
+
+<section class="Bookings">
+  <div class="moves ">
+  <h1 >BOOK YOUR TABLE</h1>
+  </div>
+  <div class="check">
+  <forms id="bookingForm" onsubmit="return validateForm()">
+
+  <div class="row g-3 py-5 px-5"> 
+
+    <div class="col-12 col-md-6"> 
+      <input type="text" id="name" class="form-control" 
+             placeholder="Your Name*" aria-label="First name">
+    </div> 
+ 
+    <div class="col-12 col-md-6"> 
+      <input type="email" id="email" class="form-control" 
+             placeholder="Your Email*" aria-label="Last name">
+    </div> 
+ 
+    <div class="col-12 col-md-6"> 
+      <select id="inputState" class="form-select"> 
+        <option value="">Select a Service</option> 
+        <option>Dine In</option> 
+        <option>Carry Out</option> 
+        <option>Event Catering</option> 
+      </select> 
+    </div> 
+ 
+    <div class="col-12"> 
+      <div class="form-floating"> 
+        <textarea class="form-control" 
+                  placeholder="Leave a comment here" 
+                  id="floatingTextarea2" 
+                  style="height: 100px"></textarea>  
+        <label for="floatingTextarea2">Message</label> 
+      </div> 
+    </div> 
+ 
+    <button type="button" class="btn btn-warning" onclick="validateForm()">
+      View Our Menu
+    </button> 
+
+    <h2>
+      <i class="bi bi-chat-square-quote">
+        Please reserve your table at least 1 day in advance.
+      </i>
+    </h2> 
+  </forms>
+  </div>
+  </div> 
+</div>
+</div>
+</section>
+
+
+<section class="last text-center py-5 px-5 ">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-3 py-5">
+      <div class="shadow-lg p-3 mb-5 bg-body rounded py-5 ">
+        <div class="icons">
+        <h1><i class="bi bi-book-half"></i></h1>
+        <h3>Convenient Location</h3>
+         <p>Our pizzeria is situated in the downtown and is very easy to reach even on weekends.</p>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-3 py-5 ">
+      <div class="shadow-lg p-3 mb-5 bg-body rounded py-5 ">
+        <h1><i class="bi bi-filter-circle"></i></h1>
+         <h3> Free Wi-Fi</h3>
+          <p>We have free Wi-Fi available to all clients and visitors of our pizzeria to enjoy there time.</p>
+      </div>
+    </div>
+    <div class="col-md-3 py-5">
+      <div class="shadow-lg p-3 mb-5 bg-body rounded py-5 ">
+        <h1><i class="bi bi-hand-thumbs-up"></i></h1>
+         <h3> Best Service</h3>
+          <p>The client is our #1 priority as we deliver top-notch customer sastifaction and service.</p>
+      </div>
+    </div>
+     <div class="col-md-3 py-5">
+      <div class="shadow-lg p-3 mb-5 bg-body rounded py-5 ">
+        <h1><i class="bi bi-handbag-fill"></i></h1>
+        <h3>Free Delivery</h3>
+        <p>If you order more than 3 pizzas, we will gladly deliver them to you for free at your door steps.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</secction>
+
+
+
+<!-- <footer class="footer">
+  <div class="foot">
+    <div class="last">
+    <img src="img/Bootstrap/img/PizzaHouse_ Good Pizza, Happy Mood.png" alt="logo">
+    </div>
+    <div class="set">
+    <h4><img src="img/Bootstrap/img/like-icon-58x25.png" alt="logo">   9.18K</h4>
+    </div>
+    <h5><i class="bi bi-hand-thumbs-up-fill"> +1 718-888-8668</i></h5>
+    <h5><i class="bi bi-envelope-fill"> info@demolink.org</i></h5>
+    <h2><i class="bi bi-facebook"></i></h2>
+    <h2><i class="bi bi-twitter"></i></h2>
+    <h2><i class="bi bi-instagram"></i></h2>
+  <h2><i class="bi bi-google"></i></h2>
+</div>
+<div class="copy">
+  <h6>514 S. Magnolia St. Orlando, FL 32806</h6>
+  <h6>© 2026. All Rights Reserved. Design by TemplateMonster</h6>
+</div>
+</footer> -->
+
+
+<section class="footer">
+    <div class="foot">
+        <div class="last">
+            <img src="img/Bootstrap/img/PizzaHouse_ Good Pizza, Happy Mood.png" alt="logo">
+        </div>
+        <div class="set">
+            <h4>
+                <img src="img/Bootstrap/img/like-icon-58x25.png" alt="like">
+                9.18K
+            </h4>
+        </div>
+        <h5>
+            <i class="bi bi-hand-thumbs-up-fill"></i>
+            +1 718-888-8668
+        </h5>
+        <h5>
+            <i class="bi bi-envelope-fill"></i>
+            info@demolink.org
+        </h5>
+        <h2>
+            <i class="bi bi-facebook"></i>
+        </h2>
+        <h2>
+            <i class="bi bi-twitter"></i>
+        </h2>
+        <h2>
+            <i class="bi bi-instagram"></i>
+        </h2>
+        <h2>
+            <i class="bi bi-google"></i>
+        </h2>
+    </div>
+    <div class="copy">
+        <h6>
+            514 S. Magnolia St. Orlando, FL 32806
+        </h6>
+        <h6>
+            © 2026. All Rights Reserved. Design by TemplateMonster
+        </h6>
+    </div>
+  </section>
+
+<script src="script.js" alt="script">
+</script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+</body>
+</html>

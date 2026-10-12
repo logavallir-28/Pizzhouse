@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+
+.mid{
+background-image: url(./img/bg-3.jpg);
+background-position: center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+.captions{
+    text-align:right;
+    color:white;
+
+}
+
+.captions h1{
+    text-align:right;
+    color:white;
+    padding:20px;
+    margin-left:250px;
+
+}
+
+.captions button{
+    padding:20px;
+    margin-right:250px;
+
+}
+
+.captions p{
+    text-align:right;
+    color:white;
+    margin-left:550px !important;
+
+}
+
+.menu h1{
+    font-size:58px;
+
+}
+
+.h5 i{
+    color:yellow;
+}
+
+.high{
+background-image: url(img/bg-4.jpg);
+background-position: center;
+background-repeat:no-repeat;
+background-size:cover;
+}
